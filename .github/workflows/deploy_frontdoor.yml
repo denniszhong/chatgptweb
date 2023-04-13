@@ -3,7 +3,7 @@ name: Deploy Azure Front Door
 on:
   push:
     branches:
-      - main
+      - denniszhong/chatgptweb
     paths:
       - 'frontdoor.bicep'
 
