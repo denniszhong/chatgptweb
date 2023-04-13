@@ -26,4 +26,4 @@ jobs:
 
     - name: Deploy Front Door using Bicep
       run: |
-        az deployment group create --name frontDoorDeployment --resource-group chat --template-file frontdoor.bicep
+        az deployment group create --name frontDoorDeployment --resource-group chat --template-file ./../../infra/bicep/frontdoor.bicep
